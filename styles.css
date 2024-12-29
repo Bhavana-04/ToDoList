@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(78, 176, 226);
+    font-family: sans-serif; 
+   
+}
+
+h1{
+   font-size: large;
+   padding: 20px;
+   text-align: center;
+}
+
+.main{
+    display: block;
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 0 auto;
+    
+}
+
+.input-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: #edeef0;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+
+.input-box input,
+.input-box button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-box button{
+    cursor: pointer;
+    background-color: rgba(78, 176, 226);
+    padding: 5px 8px 5px 8px;
+    border-radius: 25px;
+}
+
+.input-box img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top:5px ;
+}
+
+p{
+    color: green;
+    text-align: center;
+    position: relative;
+}
+
+div span{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: rgb(27, 159, 226);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tasks{
+    margin: 0 auto 0 auto;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    list-style-type: none;
+    cursor: pointer;
+    background: #edeef0;
+    color: black;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid rgb(128, 125, 125);
+    margin-bottom: 5px;
+    position: relative;
+}
+
+ul li span{
+    position: absolute;
+    right: -80px;
+    top: 10px;
+    text-decoration: underline;
+    color: rgb(27, 159, 226);
+}
+
+
+ul li img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: auto;
+}
+
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    outline: none;
+    appearance: none;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked{
+    border-color: green;
+    background-color: green;
+}
+
+input[type="checkbox"]:checked::after{
+    content: "✔";
+    color: white;
+    font-size: 15px;
+}
+
+
+

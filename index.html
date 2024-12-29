@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <h1>ToDo List</h1>
+        <div class="input-box">
+            <input type="tex" id="addItems" placeholder="Add your items">
+            <button onclick="addTasks()">
+                Add
+            </button>
+        </div>
+        <p>ToDo item updated succussfully
+        <span id="removeTasks" onclick="removeTasks()">remove all</span></p>
+        <ul class="tasks" id="list-of-items"> 
+           
+        </ul>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
